@@ -1,0 +1,90 @@
+%\documentclass[12pt,a4paper]{article}
+%\input{preambulo}
+%\begin{document}
+%\input{macros}
+
+\newcommand{\linha}{-----------------------------------------------------------------------------\,}
+\begin{table}[htpb]
+\begin{center}
+\begin{tabular}{|p{4cm}|p{11cm}|}
+\hline
+\multirow{4}{3cm}{
+\centering{
+\includegraphics[scale=0.7]{./graphics/name.jpg}\\
+\includegraphics[scale=0.4]{./graphics/globo.jpg}
+}} &	\\
+& \Large{\textbf{\Project \Charter}} \\
+& \textbf{10/03/2009} \\
+& \\
+& \linha \\
+& \\
+& \large{\textbf{Cliente: \Cliente}} \\
+& \\
+& \linha \\
+& \\
+& \large{\textbf{Patrocinador: \Patrocinador}} \\
+& \\
+& \large{\textbf{Gerente: \Gerente}} \\
+& \\
+\hline
+%\multicolumn{2}{|c|}{} \\
+%\hline
+%\multicolumn{2}{c}{} \\
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{longtable}{|p{7.5cm}|p{7.5cm}|}
+\hline
+\multicolumn{2}{|p{15cm}|}{ \textbf{Necessidade do negócio:}
+  \begin{itemize}
+  \item{Gerenciar utilização dos recursos de impressão de documentos.}
+  \end{itemize} } \\
+\hline
+
+\multicolumn{2}{|p{15cm}|}{\textbf{Objetivos do projeto:}
+  \input{objetivos}
+} \\
+
+\hline
+
+\multicolumn{2}{|p{15cm}|}{\textbf{Justificativas para o projeto:}
+  \input{justificativas}
+} \\
+
+\hline
+
+\textbf{Premissas:} \input{premissas}
+&
+\textbf{Restrições:} \input{restricoes} \\
+\hline
+\textbf{Áreas envolvidas:} \input{areas_envolvidas} &
+\textbf{Principais \stakeholders: } \input{stakeholders} \\
+\hline
+\textbf{Escopo:}
+  \begin{itemize}
+  \item{Plano de ação.}
+  \item{Auxílio para seleção de produtos/serviços.}
+  \end{itemize} &
+\textbf{Fora do escopo:}
+  \begin{itemize}
+  \item{Fornecimento de equipamentos.}
+  \item{Logística dos insumos.}
+  \item{Suporte e treinamento técnicos aos usuários.}
+  \item{Instalação e configuração de programas.}
+  \end{itemize}
+ \\
+\hline
+\multicolumn{2}{|p{15cm}|}{\textbf{Riscos identificados:}
+  \input{riscos_resumo}
+} \\
+\hline
+\textbf{Prazo estimado:} 3 meses & \textbf{Custo estimado:} R\$ 3.000,00 \\
+\hline
+\textbf{Aprovação do Patrocinador: } \Patrocinador & \textbf{Aprovação do Gerente do Projeto:} \Gerente \\
+Data: 10/03/2009 & Data: 10/03/2009 \\
+Assinatura: & Assinatura: \\
+\hline
+\end{longtable}
+
+%\end{document}

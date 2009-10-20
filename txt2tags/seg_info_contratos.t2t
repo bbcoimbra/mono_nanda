@@ -1,0 +1,14 @@
+Título
+Fernanda Rodrigues Arraiol, fernanda.arraiol@gmail.com
+%%date(%d/%m/%Y)
+
+%!Target: tex
+%!Options: --toc
+%!Encoding: iso-8859-1
+
+%!include: introducao.t2t
+%!include: capitulo1.t2t
+%!include: capitulo2.t2t
+%!include: capitulo3.t2t
+%!include: conclusao.t2t
+
