@@ -212,7 +212,6 @@ informação e de toda a estrutura física e tecnológica que permite seu acesso,
 trânsito e armazenamento. O objetivo do principio da disponibilidade é
 garantir que a informação:
 
-
 + Seja utilizada quando necessário;
 + Esteja ao alcance de seus usuários e destinatários;
 + Possa ser acessada no momento necessário.
@@ -239,10 +238,13 @@ em consideração. Entre elas, destacam-se:
 + A configuração segura de um ambiente em que todos os elementos que fazem
   pane da cadeia de comunicação estejam dispostos de forma adequada para
   assegurar o êxito da leitura, do trânsito e do armazenamento da informação;
+
 + A realização de cópias de segurança - backup. isso permite que as
   informações estejam duplicadas em outro local para uso caso não seja possível
   recuperá-Ias a partir de sua base original;
+
 + Definir estratégias para situações de contingência;
+
 + Estabelecer rotas alternativas para o trânsito da informação, para garantir
   seu acesso e a continuidade dos negócios, inclusive quando alguns dos recursos
   tecnológicos ou humanos não estejam em perfeitas condições de funcionamento.
@@ -261,8 +263,10 @@ As ameaças podem ser divididas em três grandes grupos:
 
 + Naturais: condições da natureza e a intempérie que poderão provocar danos
   nos ativos, tais como fogo, inundação e terremotos;
+
 + Intencionais: ameaças deliberadas, fraudes, vandalismo, sabotagens,
   espionagem, invasões e furtos de informações, entre outros;
+
 + Involuntárias: ameaças resultantes de ações inconscientes de usuários, por
   vírus eletrônicos, muitas vezes causados pela falta de conhecimento no uso dos
   ativos, tais como erros e acidentes.
@@ -314,16 +318,19 @@ medidas, destacam-se:
   possam ser explorados por ameaças. A analise de riscos tem como resultado um
   grupo de recomendações para a correção dos ativos, a fim de que possam ser
   protegidos;
+
 + Diretiva de segurança: busca estabelecer os padrões de segurança que devem
   ser seguidos por todos os envolvidos no uso e na manutenção dos ativos. É uma
   forma de administrar um conjunto de normas para guiar as pessoas na realização
   de seu trabalho. É o primeiro passo para aumentar a consciência da segurança
   das pessoas, pois está orientada para a formação de hábitos, por meio de
   manuais de instrução e procedimentos operacionais;
+
 + Especificações de segurança: objetivam instruir a correta implementação de
   um novo ambiente tecnológico por meio do detalhe de seus elementos
   constituintes e a forma como os mesmos devem estar dispostos para atender aos
   princípios da Segurança da Informação;
+
 + Administração da segurança: medidas integradas para produzir a gestão dos
   riscos de um ambiente. A administração da segurança envolve todas as medidas
   mencionadas anteriormente, a do tipo preventiva, perceptiva e corretiva, com
@@ -341,20 +348,17 @@ leva à perda de um ou mais princípios básicos da Segurança da informação,
 causando impactos no negócio da organização, aumentando os riscos aos quais
 estão expostas as informações. Para que o impacto dessas ameaças ao negocio
 seja reduzido, é necessário adotar medidas de segurança para impedir a
-ocorrência das vulnerabilidades. Assim, Conclui-se a definição de Segurança da
-informação com a ilustração do ciclo na Figura 1.1:
+ocorrência das vulnerabilidades.
 
 
-Figura 1.1 - Ciclo de Segurança da informação (Microsoft Technet, 2005)
 
-
-O diagrama da Figura 1.1 mostra que os riscos de segurança na empresa aumentam
-à medida que as ameaças conseguem explorar as vulnerabilidades e, portanto,
-provocar danos aos ativos. Esses danos podem fazer com que a
-confidencialidade, a integridade ou a disponibilidade da informação se perca,
-causando impactos no negócio da organização. As medidas de segurança permitem
-diminuir os riscos e, assim, fazer com que O ciclo seja de muito menor impacto
-para os ativos e, portanto, para a organização.
+Os riscos de segurança na empresa aumentam à medida que as ameaças conseguem
+explorar as vulnerabilidades e, portanto, provocar danos aos ativos.
+Esses danos podem fazer com que a confidencialidade, a integridade ou a
+disponibilidade da informação se perca, causando impactos no negócio da
+organização. As medidas de segurança permitem diminuir os riscos e, assim, fazer
+com que o ciclo seja de muito menor impacto para os ativos e, portanto, para
+a organização.
 
 
 De acordo com Oliveira (2001), a tecnologia, por si só, não pode ser
