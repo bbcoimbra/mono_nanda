@@ -1,10 +1,22 @@
+LATEX = /usr/share/texmf/bin/latex
+PDFLATEX = /usr/share/texmf/bin/pdflatex
+BIBTEX = /usr/share/texmf/bin/bibtex
+
+
+TARGET=seg_info_contratos
+TRASH = *.aux *.log *.toc *~ *.blg *.bbl
+RM = /usr/bin/rm
+
+
 pdf:
-	pdflatex seg_info_contratos.tex
-	pdflatex seg_info_contratos.tex
+	$(PDFLATEX) $(TARGET)
+	$(BIBTEX) $(TARGET)
+	$(PDFLATEX) $(TARGET)
+	$(PDFLATEX) $(TARGET)
 
 clean:
-	rm *.aux *.log *.toc *~ *.blg *.bbl
+	$(RM) $(TRASH)
 
 clean-all: clean
-	rm *.pdf
+	$(RM) *.pdf
 
