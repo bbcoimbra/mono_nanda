@@ -5,3 +5,6 @@
 *.pdf
 .*.sw?
 ex_ronaldo/*
+
+*.bbl
+*.blg
