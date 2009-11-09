@@ -1,0 +1,1525 @@
+% This file was converted to LaTeX by Writer2LaTeX ver. 0.4b
+% see http://www.hj-gym.dk/~hj/writer2latex for more info
+\documentclass[12pt,twoside]{article}
+\usepackage[ascii]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[portuges]{babel}
+\usepackage{amsmath,amssymb,amsfonts,textcomp}
+\usepackage{color}
+\usepackage{calc}
+\usepackage{longtable}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue, filecolor=blue, pagecolor=blue, urlcolor=blue}
+% List styles
+\newcounter{saveenum}
+\newcommand\liststyleWWviiiNumxv{%
+\renewcommand\theenumi{\alph{enumi}}
+\renewcommand\theenumii{\alph{enumii}}
+\renewcommand\theenumiii{\roman{enumiii}}
+\renewcommand\theenumiv{\arabic{enumiv}}
+\renewcommand\labelenumi{\theenumi.}
+\renewcommand\labelenumii{\theenumii.}
+\renewcommand\labelenumiii{\theenumiii.}
+\renewcommand\labelenumiv{\theenumiv.}
+}
+\newcommand\liststyleWWviiiNumx{%
+\renewcommand\theenumi{\alph{enumi}}
+\renewcommand\theenumii{\alph{enumii}}
+\renewcommand\theenumiii{\roman{enumiii}}
+\renewcommand\theenumiv{\arabic{enumiv}}
+\renewcommand\labelenumi{\theenumi.}
+\renewcommand\labelenumii{\theenumii.}
+\renewcommand\labelenumiii{\theenumiii.}
+\renewcommand\labelenumiv{\theenumiv.}
+}
+\newcommand\liststyleWWviiiNumiv{%
+\renewcommand\theenumi{\alph{enumi}}
+\renewcommand\theenumii{\alph{enumii}}
+\renewcommand\theenumiii{\roman{enumiii}}
+\renewcommand\theenumiv{\arabic{enumiv}}
+\renewcommand\labelenumi{\theenumi.}
+\renewcommand\labelenumii{\theenumii.}
+\renewcommand\labelenumiii{\theenumiii.}
+\renewcommand\labelenumiv{\theenumiv.}
+}
+\newcommand\liststyleWWviiiNumxiii{%
+\renewcommand\theenumi{\alph{enumi}}
+\renewcommand\theenumii{\alph{enumii}}
+\renewcommand\theenumiii{\roman{enumiii}}
+\renewcommand\theenumiv{\arabic{enumiv}}
+\renewcommand\labelenumi{\theenumi.}
+\renewcommand\labelenumii{\theenumii.}
+\renewcommand\labelenumiii{\theenumiii.}
+\renewcommand\labelenumiv{\theenumiv.}
+}
+\newcommand\liststyleWWviiiNumxii{%
+\renewcommand\theenumi{\alph{enumi}}
+\renewcommand\theenumii{\alph{enumii}}
+\renewcommand\theenumiii{\roman{enumiii}}
+\renewcommand\theenumiv{\arabic{enumiv}}
+\renewcommand\labelenumi{\theenumi.}
+\renewcommand\labelenumii{\theenumii.}
+\renewcommand\labelenumiii{\theenumiii.}
+\renewcommand\labelenumiv{\theenumiv.}
+}
+\newcommand\liststyleWWviiiNumviii{%
+\renewcommand\theenumi{\alph{enumi}}
+\renewcommand\theenumii{\alph{enumii}}
+\renewcommand\theenumiii{\roman{enumiii}}
+\renewcommand\theenumiv{\arabic{enumiv}}
+\renewcommand\labelenumi{\theenumi.}
+\renewcommand\labelenumii{\theenumii.}
+\renewcommand\labelenumiii{\theenumiii.}
+\renewcommand\labelenumiv{\theenumiv.}
+}
+\newcommand\liststyleWWviiiNumv{%
+\renewcommand\theenumi{\alph{enumi}}
+\renewcommand\theenumii{\alph{enumii}}
+\renewcommand\theenumiii{\roman{enumiii}}
+\renewcommand\theenumiv{\arabic{enumiv}}
+\renewcommand\labelenumi{\theenumi.}
+\renewcommand\labelenumii{\theenumii.}
+\renewcommand\labelenumiii{\theenumiii.}
+\renewcommand\labelenumiv{\theenumiv.}
+}
+\newcommand\liststyleWWviiiNumvii{%
+\renewcommand\theenumi{\alph{enumi}}
+\renewcommand\theenumii{\alph{enumii}}
+\renewcommand\theenumiii{\roman{enumiii}}
+\renewcommand\theenumiv{\arabic{enumiv}}
+\renewcommand\labelenumi{\theenumi.}
+\renewcommand\labelenumii{\theenumii.}
+\renewcommand\labelenumiii{\theenumiii.}
+\renewcommand\labelenumiv{\theenumiv.}
+}
+\newcommand\liststyleWWviiiNumiii{%
+\renewcommand\theenumi{\alph{enumi}}
+\renewcommand\theenumii{\alph{enumii}}
+\renewcommand\theenumiii{\roman{enumiii}}
+\renewcommand\theenumiv{\arabic{enumiv}}
+\renewcommand\labelenumi{\theenumi.}
+\renewcommand\labelenumii{\theenumii.}
+\renewcommand\labelenumiii{\theenumiii.}
+\renewcommand\labelenumiv{\theenumiv.}
+}
+\newcommand\liststyleWWviiiNumii{%
+\renewcommand\theenumi{\alph{enumi}}
+\renewcommand\theenumii{\alph{enumii}}
+\renewcommand\theenumiii{\roman{enumiii}}
+\renewcommand\theenumiv{\arabic{enumiv}}
+\renewcommand\labelenumi{\theenumi.}
+\renewcommand\labelenumii{\theenumii.}
+\renewcommand\labelenumiii{\theenumiii.}
+\renewcommand\labelenumiv{\theenumiv.}
+}
+\newcommand\liststyleWWviiiNumi{%
+\renewcommand\theenumi{\alph{enumi}}
+\renewcommand\theenumii{\alph{enumii}}
+\renewcommand\theenumiii{\roman{enumiii}}
+\renewcommand\theenumiv{\arabic{enumiv}}
+\renewcommand\labelenumi{\theenumi.}
+\renewcommand\labelenumii{\theenumii.}
+\renewcommand\labelenumiii{\theenumiii.}
+\renewcommand\labelenumiv{\theenumiv.}
+}
+% Pages styles (master pages)
+\makeatletter
+\newcommand\ps@Standard{%
+\renewcommand\@oddhead{}%
+\renewcommand\@evenhead{}%
+\renewcommand\@oddfoot{}%
+\renewcommand\@evenfoot{}%
+\setlength\paperwidth{20.999cm}\setlength\paperheight{29.699cm}\setlength\voffset{-1in}\setlength\hoffset{-1in}\setlength\topmargin{1.501cm}\setlength\headheight{12pt}\setlength\headsep{0cm}\setlength\footskip{12pt+0cm}\setlength\textheight{29.699cm-1.501cm-1.752cm-0cm-12pt-0cm-12pt}\setlength\oddsidemargin{1.111cm}\setlength\textwidth{20.999cm-1.111cm-1.182cm}
+\renewcommand\thepage{\arabic{page}}
+\setlength{\skip\footins}{0.101cm}\renewcommand\footnoterule{\vspace*{-0.018cm}\noindent\textcolor{black}{\rule{0.25\columnwidth}{0.018cm}}\vspace*{0.101cm}}
+}
+\makeatother
+\pagestyle{Standard}
+\setlength\tabcolsep{1mm}
+\renewcommand\arraystretch{1.3}
+\title{Questionar}
+\begin{document}
+\clearpage\pagestyle{Standard}
+{\centering\selectlanguage{portuges}
+\textsf{\textbf{Question\'ario }}
+\par}
+
+
+\bigskip
+
+{\selectlanguage{portuges}
+\textsf{Esta pesquisa tem por objetivo avaliar o grau de ader\^encia
+desta empresa \`as recomenda\c{c}\~oes de seguran\c{c}a da
+informa\c{c}\~ao da norma internacional ISO/ IEC 17799:2001. Deste
+modo, para ter dados referenciais da sua organiza\c{c}\~ao, gostaria de
+contar com sua colabora\c{c}\~ao respondendo \`as quest\~oes abaixo.}}
+
+{\selectlanguage{portuges}
+\textsf{Esta pesquisa \'e de cunho cientifico, tendo como premissa \`a
+preserva\c{c}\~ao da confidencial idade das informa\c{c}\~oes. Esta
+\'e, tamb\'em, uma boa oportunidade para avaliar o controle de
+seguran\c{c}a da informa\c{c}\~ao da sua empresa, pois respondendo este
+question\'ario, voc\^e receber\'a o \'indice de conformidade de sua
+empresa com esta norma ISO 17799, de acordo com o escopo desta
+pesquisa.}}
+
+
+\bigskip
+
+{\selectlanguage{portuges}\sffamily
+Obrigada!}
+
+
+\bigskip
+
+\begin{longtable}[l]{|p{18.509998cm}|}
+\hline
+{\selectlanguage{portuges}
+\textsf{\textbf{1{--} INFORMA\c{C}\~OES SOBRE O RESPONDENTE}}}
+\\\hline
+{\selectlanguage{portuges}\sffamily
+Cargo:}
+
+{\selectlanguage{portuges}\sffamily
+Efetivo ( \ ) \ \ Terceiro ( \ )}
+\\\hline
+\end{longtable}
+
+\bigskip
+
+\begin{longtable}[l]{|p{9.801001cm}|p{1.8cm}|p{1.8cm}|p{2.3009999cm}|p{2.054cm}|}
+\hline
+\multicolumn{5}{|p{18.556cm}|}{{\selectlanguage{portuges}\sffamily\bfseries
+2 {--} POLITICA DE SEGURAN\c{C}A}
+}\\\hline
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Afirmativas
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica totalmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica muito \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica parcialmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+N\~ao se aplica \`a empresa
+\par}
+\\\hline
+\liststyleWWviiiNumxv
+\begin{enumerate}
+\item {\selectlanguage{portuges}\sffamily
+A organiza\c{c}\~ao possui uma pol\'itica de Seguran\c{c}a da
+Informa\c{c}\~ao (SI) atualizada.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumxv
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+H\'a na organiza\c{c}\~ao algu\'em respons\'avel pela gest\~ao da
+pol\'itica de SI, com capacidade para realizar esta fun\c{c}\~ao.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumxv
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}
+\textsf{Existe documento atualizado que formaliza a pol\'itica de SI
+aprovado pela dire\c{c}\~ao, publicado e comunicado de forma adequada
+para todos os integrantes da organiza\c{c}\~ao.}}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\end{longtable}
+
+\bigskip
+
+\begin{longtable}[l]{|p{9.801001cm}|p{1.8cm}|p{1.8cm}|p{2.3009999cm}|p{2.054cm}|}
+\hline
+\multicolumn{5}{|p{18.556cm}|}{{\selectlanguage{portuges}\sffamily\bfseries
+3 {--} SEGURAN\c{C}A ORGANIZACIONAL}
+}\\\hline
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Afirmativas
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica totalmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica muito \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica parcialmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+N\~ao se aplica \`a empresa
+\par}
+\\\hline
+\liststyleWWviiiNumx
+\begin{enumerate}
+\item {\selectlanguage{portuges}\sffamily
+A organiza\c{c}\~ao possui uma infra{}-estrutura atualizada de SI para
+gerenciar a\c{c}\~oes corporativas.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumx
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+A organiza\c{c}\~ao possui um f\'orum de seguran\c{c}a ativo, formado
+pelo corpo diretor, a fim de gerir mudan\c{c}as estrat\'egicas.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumx
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existe uma defini\c{c}\~ao clara e atualizada das atribui\c{c}\~oes de
+responsabilidades associadas \`a SI.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumx
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existe uma norma atualizada de identifica\c{c}\~ao dos riscos no acesso
+dos prestadores de servi\c{c}os.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumx
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existe um controle de acesso especifico para prestadores de servi\c{c}os
+de acordo com padr\~oes atuais.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\end{longtable}
+
+\bigskip
+
+\begin{longtable}[l]{|p{9.801001cm}|p{1.8cm}|p{1.8cm}|p{2.3009999cm}|p{2.054cm}|}
+\hline
+\multicolumn{5}{|p{18.556cm}|}{{\selectlanguage{portuges}\sffamily\bfseries
+4 {--} CLASSIFICA\c{C}\~AO E CONTROLE DOS ATIVOS DE INFORMA\c{C}\~AO}
+}\\\hline
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Afirmativas
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica totalmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica muito \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica parcialmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+N\~ao se aplica \`a empresa
+\par}
+\\\hline
+\liststyleWWviiiNumiv
+\begin{enumerate}
+\item {\selectlanguage{portuges}\sffamily
+Existe na organiza\c{c}\~ao, invent\'ario atualizado dos ativos
+f\'isicos, tecnol\'ogicos e humanos.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumiv
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existe crit\'erios de sigilo, atualizados, para classificar a
+informa\c{c}\~ao.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\end{longtable}
+{\selectlanguage{portuges}\sffamily
+}
+
+
+\bigskip
+
+
+\bigskip
+
+\begin{longtable}[l]{|p{9.801001cm}|p{1.8cm}|p{1.8cm}|p{2.3009999cm}|p{2.054cm}|}
+\hline
+\multicolumn{5}{|p{18.556cm}|}{{\selectlanguage{portuges}\sffamily\bfseries
+5 {--} SEGURAN\c{C}A EM PESSOAS}
+}\\\hline
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Afirmativas
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica totalmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica muito \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica parcialmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+N\~ao se aplica \`a empresa
+\par}
+\\\hline
+\liststyleWWviiiNumxiii
+\begin{enumerate}
+\item {\selectlanguage{portuges}
+\textsf{Existe}\textsf{m na organiza\c{c}\~ao crit\'erios atualizados de
+sele\c{c}\~ao e pol\'itica de recursos humanos.}}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumxiii
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Na contrata\c{c}\~ao s\~ao previstos, de forma clara, acordo de
+confiabilidade, termos e condi\c{c}\~oes de trabalho.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumxiii
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}
+\textsf{Existem processos atualizados para capacita\c{c}\~ao e
+treinamento de usu\'arios.}}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumxiii
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existe uma estrutura atualizada para notificar e responder aos
+incidentes e falhas de seguran\c{c}a.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\end{longtable}
+
+\bigskip
+
+\begin{longtable}[l]{|p{9.801001cm}|p{1.8cm}|p{1.8cm}|p{2.3009999cm}|p{2.054cm}|}
+\hline
+\multicolumn{5}{|p{18.556cm}|}{{\selectlanguage{portuges}\sffamily\bfseries
+6 {--} SEGURAN\c{C}A F\'ISICA E DE AMBIENTE}
+}\\\hline
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Afirmativas
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica totalmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica muito \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica parcialmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+N\~ao se aplica \`a empresa
+\par}
+\\\hline
+\liststyleWWviiiNumxii
+\begin{enumerate}
+\item {\selectlanguage{portuges}\sffamily
+Existe na organiza\c{c}\~ao uma defini\c{c}\~ao adequada de per\'imetros
+e controles de acesso f\'isico aos diversos ambientes.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumxii
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existem recursos atualizados de seguran\c{c}a e manuten\c{c}\~ao dos
+equipamentos.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumxii
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existe uma estrutura, atualizada, para o fornecimento adequado de
+energia.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumxii
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existe seguran\c{c}a no cabeamento da organiza\c{c}\~ao, seguindo
+padr\~oes atuais.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\end{longtable}
+
+\bigskip
+
+\begin{longtable}[l]{|p{9.801001cm}|p{1.8cm}|p{1.8cm}|p{2.3009999cm}|p{2.054cm}|}
+\hline
+\multicolumn{5}{|p{18.556cm}|}{{\selectlanguage{portuges}\sffamily\bfseries
+7 {--} GERENCIAMENTO DAS OPERA\c{C}\~OES E COMUNICA\c{C}\~OES}
+}\\\hline
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Afirmativas
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica totalmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica muito \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica parcialmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+N\~ao se aplica \`a empresa
+\par}
+\\\hline
+\liststyleWWviiiNumviii
+\begin{enumerate}
+\item {\selectlanguage{portuges}\sffamily
+S\~ao previstos na organiza\c{c}\~ao procedimentos e responsabilidades
+operacionais atualizados.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumviii
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existe um controle atualizado de mudan\c{c}as operacionais.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumviii
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existe segrega\c{c}\~ao de fun\c{c}\~ao e ambientes atualizadas.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumviii
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existe planejamento e aceita\c{c}\~ao dos sistemas seguindo padr\~oes
+atuais.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumviii
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existem procedimentos atualizados para realiza\c{c}\~ao de c\'opias de
+seguran\c{c}a.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumviii
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existem controles de gerenciamento de rede atualizados.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumviii
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existem procedimentos de seguran\c{c}a, atualizados, na
+documenta\c{c}\~ao de sistemas.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumviii
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+S\~ao previstos mecanismos de seguran\c{c}a atuais para o correio
+eletr\^onico.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\end{longtable}
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+{\selectlanguage{portuges}\sffamily
+}
+
+
+\bigskip
+
+\begin{longtable}[l]{|p{9.801001cm}|p{1.8cm}|p{1.8cm}|p{2.3009999cm}|p{2.054cm}|}
+\hline
+\multicolumn{5}{|p{18.556cm}|}{{\selectlanguage{portuges}\sffamily\bfseries
+8 {--} CONTROLE DE ACESSO}
+}\\\hline
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Afirmativas
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica totalmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica muito \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica parcialmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+N\~ao se aplica \`a empresa
+\par}
+\\\hline
+\liststyleWWviiiNumv
+\begin{enumerate}
+\item {\selectlanguage{portuges}\sffamily
+Existem na organiza\c{c}\~ao normas atualizadas para o controle de
+acesso.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumv
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existe gerenciamento de acesso de usu\'arios atualizado.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumv
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existe controle de acesso ao sistema operacional de acordo padr\~oes
+atuais.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumv
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existe controle de acesso \`as aplica\c{c}\~oes de acordo com
+\ padr\~oes atuais.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumv
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existe monitora\c{c}\~ao do uso e acesso aos sistemas de acordo com
+padr\~oes atuais.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumv
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+S\~ao previstos crit\'erios atualizados para computa\c{c}\~ao m\'ovel e
+trabalho remoto.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\end{longtable}
+
+\bigskip
+
+\begin{longtable}[l]{|p{9.801001cm}|p{1.8cm}|p{1.8cm}|p{2.3009999cm}|p{2.054cm}|}
+\hline
+\multicolumn{5}{|p{18.556cm}|}{{\selectlanguage{portuges}\sffamily\bfseries
+9 {--} DESENVOLVIMENTO E MANUTEN\c{C}\~AO DE SISTEMAS}
+}\\\hline
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Afirmativas
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica totalmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica muito \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica parcialmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+N\~ao se aplica \`a empresa
+\par}
+\\\hline
+\liststyleWWviiiNumvii
+\begin{enumerate}
+\item {\selectlanguage{portuges}\sffamily
+Existem requisitos de seguran\c{c}a atualizados para os sistemas de
+informa\c{c}\~ao.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumvii
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existem na organiza\c{c}\~ao controles de criptografia atualizados.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumvii
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+S\~ao previstos mecanismos de seguran\c{c}a no processo de
+desenvolvimento e suporte, de acordo com padr\~oes atuais.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\end{longtable}
+
+\bigskip
+
+\begin{longtable}[l]{|p{9.801001cm}|p{1.8cm}|p{1.8cm}|p{2.3009999cm}|p{2.054cm}|}
+\hline
+\multicolumn{5}{|p{18.556cm}|}{{\selectlanguage{portuges}\sffamily\bfseries
+10 {}- \ GEST\~AO DA CONTINUIDADE DO NEGOCIO}
+}\\\hline
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Afirmativas
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica totalmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica muito \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica parcialmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+N\~ao se aplica \`a empresa
+\par}
+\\\hline
+\liststyleWWviiiNumiii
+\begin{enumerate}
+\item {\selectlanguage{portuges}
+\textsf{Existe na organiza\c{c}\~ao um processo atualizado de gest\~ao
+da continuidade do neg}\textsf{\'ocio.}}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumiii
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+A organiza\c{c}\~ao realiza testes, manuten\c{c}\~ao e reavalia\c{c}\~ao
+do plano de continuidade do negocio regularmente.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\end{longtable}
+
+\bigskip
+
+\begin{longtable}[l]{|p{9.801001cm}|p{1.8cm}|p{1.8cm}|p{2.3009999cm}|p{2.054cm}|}
+\hline
+\multicolumn{5}{|p{18.556cm}|}{{\selectlanguage{portuges}\sffamily\bfseries
+11 {--} CONFORMIDADE}
+}\\\hline
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Afirmativas
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica totalmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica muito \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica parcialmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+N\~ao se aplica \`a empresa
+\par}
+\\\hline
+\liststyleWWviiiNumii
+\begin{enumerate}
+\item {\selectlanguage{portuges}\sffamily
+Existe gest\~ao de conformidade t\'ecnicas e legais que segue padr\~oes
+atuais.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumii
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+A organiza\c{c}\~ao faz, a intervalos regulares, an\'alise cr\'itica da
+pol\'itica de seguran\c{c}a e da conformidade t\'ecnica.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumii
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existem na organiza\c{c}\~ao recursos e crit\'erios atualizados para
+realiza\c{c}\~ao de auditoria de sistemas.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\end{longtable}
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+{\selectlanguage{portuges}\sffamily
+}
+
+
+\bigskip
+
+\begin{longtable}[l]{|p{9.801001cm}|p{1.8cm}|p{1.8cm}|p{2.3009999cm}|p{2.054cm}|}
+\hline
+\multicolumn{5}{|p{18.556cm}|}{{\selectlanguage{portuges}\sffamily\bfseries
+12 {--} GEST\~AO DE CONTRATOS}
+}\\\hline
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Afirmativas
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica totalmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica muito \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+Se aplica parcialmente \`a empresa
+\par}
+&
+{\centering\selectlanguage{portuges}\sffamily\bfseries
+N\~ao se aplica \`a empresa
+\par}
+\\\hline
+\liststyleWWviiiNumi
+\begin{enumerate}
+\item {\selectlanguage{portuges}\sffamily
+A organiza\c{c}\~ao possui uma pol\'itica de gest\~ao de contratos
+atualizada.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumi
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+H\'a na organiza\c{c}\~ao algu\'em respons\'avel pela gest\~ao da
+pol\'itica de contratos, com capacidade para realizar esta
+fun\c{c}\~ao.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumi
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existe documento atualizado que formaliza a pol\'itica de gest\~ao de
+contratos aprovado pela dire\c{c}\~ao, publicado e comunicado de forma
+adequada para todos os integrantes da organiza\c{c}\~ao.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumi
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existe uma defini\c{c}\~ao clara e atualizada das atribui\c{c}\~oes do
+gestor de contratos.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumi
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existe um controle claro e objetivo dos processos e pagamentos dos
+contratos.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumi
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existem requisitos de seguran\c{c}a atuais nos contratos com prestadores
+de servi\c{c}os.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\liststyleWWviiiNumi
+\setcounter{saveenum}{\value{enumi}}
+\begin{enumerate}
+\setcounter{enumi}{\value{saveenum}}
+\item {\selectlanguage{portuges}\sffamily
+Existem requisitos de seguran\c{c}a atualizados nos contratos de
+terceiriza\c{c}\~ao.}
+\end{enumerate}
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+&
+
+\bigskip
+\\\hline
+\end{longtable}
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+\end{document}
