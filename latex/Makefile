@@ -4,7 +4,7 @@ BIBTEX = /usr/share/texmf/bin/bibtex
 
 
 TARGET=seg_info_contratos
-TRASH = *.aux *.log *.toc *~ *.blg *.bbl
+TRASH = *.aux *.log *.toc *~ *.blg *.bbl *.out
 RM = /usr/bin/rm
 
 
