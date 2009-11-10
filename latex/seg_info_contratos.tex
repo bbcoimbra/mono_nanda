@@ -10,40 +10,14 @@
 \tableofcontents
 \clearpage
 
-\section{Introdução}
-  \input{introducao}
-  \newpage
-
-\section{Referência Bibliográfica}
-  \input{ref_bib}
-  \newpage
-
-\section{Segurança da Informação}
-  \input{seg_info}
-  \newpage
-
-\section{Contratos}
-  \input{contratos}
-  \newpage
-
-\section{Referencial Teórico}
-  \input{ref_teorico}
-  \newpage
-
-\section{Estudo de Caso}
-  \input{estudo_caso}
-  \newpage
-
-\section{Conclusão}
-  \input{conclusao}
-  \newpage
-
-  \bibliographystyle{plainnat}
-  \bibliography{bibliografia}
-  \newpage
-
-  \section{Apêndices}
-    \subsection{Questionário}
-    \input{questionario}
+  \include{introducao}
+  \include{ref_bib}
+  \include{seg_info}
+  \include{contratos}
+  \include{ref_teorico}
+  \include{estudo_caso}
+  \include{conclusao}
+  \include{bibliografia}
+  \include{apendices}
 
 \end{document}
