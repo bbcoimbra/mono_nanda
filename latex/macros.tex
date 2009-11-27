@@ -16,8 +16,10 @@ Afirmativas &
 \newcommand{\fimcel}{ & & & & & \\}
 
 \newcounter{thead}
-\newcommand{\tablehead}[1]{\stepcounter{thead}\arabic{thead} {--} #1}
+\newcommand{\tablehead}[1]{\cellcolor[gray]{0.6}\stepcounter{thead}\arabic{thead} {--} #1}
 \newcounter{cellitem}[thead]
 \newcommand{\tcitem}{\stepcounter{cellitem}\arabic{thead}.\arabic{cellitem}. }
+
+\newcommand{\subheader}{Objetivo & Fundamentação Teórica \\ }
 
 \newcommand{\iso}{NBR ISO/IEC 17799}
