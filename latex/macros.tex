@@ -15,4 +15,9 @@ Afirmativas &
 \newcommand{\cellitem}{\stepcounter{citem}\alph{citem}. }
 \newcommand{\fimcel}{ & & & & & \\}
 
+\newcounter{thead}
+\newcommand{\tablehead}[1]{\stepcounter{thead}\arabic{thead} {--} #1}
+\newcounter{cellitem}[thead]
+\newcommand{\tcitem}{\stepcounter{cellitem}\arabic{thead}.\arabic{cellitem}. }
+
 \newcommand{\iso}{NBR ISO/IEC 17799}
