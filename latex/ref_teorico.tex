@@ -76,15 +76,28 @@ escolha da estratégia depende de três condições:
 
 
 %%% /* Incluir Tabela Aqui %%%
-Pode-se observar na Tabela 4.1 que o estudo de caso, além de responder às
-questões "Como?" e "Por quê?", tem foco em eventos contemporâneos e não
-requer controles sobre eventos comportamentais.
-
-Tabela 4.1 - Situações relevantes para diferentes estratégias de pesquisa
-
+Pode-se observar na Tabela \ref{tab:yin} que o estudo de caso, além de
+responder às questões ``Como?'' e ``Por quê?'', tem foco em eventos
+contemporâneos e não requer controles sobre eventos comportamentais.
+\begin{table}[h]
+\begin{tabular}{p{3cm}|p{4cm}|p{3.4cm}|p{3.4cm}}
+\hline
+\textbf{Estratégia}
+    & \textbf{Forma de questão de pesquisa}
+    & \textbf{Exige controle sobre eventos comportamentais}
+    & \textbf{Focaliza acontecimentos contemporâneos} \\ \hline
+Experimento  & como, por que                      & sim & sim \\ \hline
+Levantamento & quem, o que, onde, quantos, quando & não & sim \\ \hline
+Análise de arquivos & quem, o que, onde, quantos, quando & não & sim/não \\ \hline
+Pesquisa Histórica  & como, por que & não & não \\ \hline
+Estudo de Caso & como, por que &  não & sim \\ \hline
+\end{tabular}
+\caption{ Situações relevantes para diferentes estratégias de pesquisa}
+\label{tab:yin}
+\end{table}
 %%% Incluir Tabela Aqui  */ %%%
 
-Observação: (') O quê? quando perguntado como parte de um estudo exploratório,
+Observação: ``O quê?'' quando perguntado como parte de um estudo exploratório,
 pertence a todas as cinco estratégias \citep{yin05}.
 
 O estudo de caso, de acordo com \citet{yin05}, é um questionamento empírico
@@ -99,13 +112,13 @@ Este método dedica-se a estudos intensivos do passado, presente e de
 interações ambientais de uma (ou algumas) unidade social: individuo, grupo,
 instituição, comunidades. São validados pelo rigor do protocolo estabelecido.
 
- \citet{yin05} comenta que a utilização de estudo de casos, embora bastante
- utilizada em Campos orientados pela prática, tem sido criticada. Tais
- críticas decorrem principalmente de preconceitos envolvendo a perda de rigor
- nas pesquisas com estudo de caso, a dificuldade em se efetuar uma
- generalização científica e ao fato de estudos de casos normalmente envolverem
- extenso período de tempo, gerando, conseqüentemente, relatórios maçantes e de
- difícil leitura.
+\citet{yin05} comenta que a utilização de estudo de casos, embora bastante
+utilizada em Campos orientados pela prática, tem sido criticada. Tais
+críticas decorrem principalmente de preconceitos envolvendo a perda de rigor
+nas pesquisas com estudo de caso, a dificuldade em se efetuar uma
+generalização científica e ao fato de estudos de casos normalmente envolverem
+extenso período de tempo, gerando, conseqüentemente, relatórios maçantes e de
+difícil leitura.
 
 Contrapondo estas criticas, \citeauthor{yin05} comenta que a falta de rigor
 também pode ocorrer quando se usam outras estratégias de pesquisa. Para
@@ -201,7 +214,7 @@ utilizadas no trabalho foram:
 \begin{itemize}
 \item entrevista com o informante-chave;
 \item aplicação de questionário para avaliar a conformidade da empresa com a
-norma NBR lSO/IEC 17799:2001;
+      norma NBR lSO/IEC 17799:2001;
 \item avaliação de documentação disponível no site da empresa.
 \end{itemize}
 
@@ -259,4 +272,98 @@ Como este trabalho envolve um estudo de caso único, não foi desenvolvido um
 protocolo de pesquisa específico, mas seu conteúdo está disperso nas diversas
 seções que compõem o trabalho.
 
+\subsection{Avaliação de Maturidade}
+
+Uma das formas de medição dos processos em uma organização é através do uso de
+um modelo de maturidade. O conceito de níveis de maturidade surgiu nos
+princípios do gerenciamento da qualidade. A estrutura de avaliação da
+maturidade através de princípios de qualidade originou-se do trabalho
+//Quality is Free// (CROSBY, 1999), o qual descreve cinco estágios na adoção
+das práticas de qualidade: Incerteza, Despertar, Esclarecimento, Sabedoria e
+Certeza. Cada um dos estágios é analisado por seis aspectos diferentes do
+gerenciamento da qualidade, formando uma matriz denominada Quality Management
+Maturity Grid ou Matriz de Maturidade do Gerenciamento da Qualidade (CROSBY,
+1999).
+
+Assim, define-se Maturidade como "a extensão em que o processo é
+explicitamente definido, gerenciado, medido, controlado e eficaz" (SIQUEIRA,
+2005, p. 4). O conceito básico sob o termo maturidade é de que as organizações
+maduras fazem as coisas de modo sistemático e de que as imaturas atingem seus
+resultados graças aos esforços heróicos de indivíduos, usando abordagens que
+eles criam mais ou menos espontaneamente. Segundo Crosby (1999), a maturidade
+deve ser medida ao longo do tempo, além do plano de implementação, medindo não
+somente a qualidade do plano, mas a sua evolução e os resultados obtidos. Esta
+definição da maturidade tem diversas características importantes:
+
+\begin{itemize}
+\item Fornece o escopo para um plano de Segurança da Informação;
+\item Auxilia a gestão na definição da ordem de implementação;
+\item Conduz para o uso das melhores práticas e aderência as normas
+      internacionais.
+\end{itemize}
+
+Em 1986, esses princípios foram adaptados pelo \emph{Software Engineering
+Institute} (SEI) da Carnegie Mellon University, para o  processo de
+desenvolvimento de software em um modelo denominado \emph{Capability Maturity
+Model} (CMM) (HUMPHREY, 1987). O principal objetivo do CMM é mensurar a
+maturidade de uma área de desenvolvimento, sendo necessário ser analisado,
+compreendido e adaptado às características de cada organização. O CMM descreve
+as etapas necessárias para que uma área produza, consistentemente e
+previsivelmente, produtos de qualidade assegurada. O modelo possibilita
+analisar o quanto o processo implantado em uma organização é capaz de
+assegurar a qualidade dos sistemas desenvolvidos através de áreas chave do
+processo ou \emph{Key Process Áreas} (KPA's).
+
+O CMM apresenta uma estrutura em cinco níveis de maturidade para organizar as
+etapas evolutivas que estabelecem fundamentos sucessivos para uma contínua
+melhoria do processo de desenvolvimento. Esses níveis de maturidade definem
+uma escala ordinal para medir e avaliar a maturidade de um processo de
+desenvolvimento na organização, ajudando a priorizar esforços na melhoria do
+processo (PÁDUA, 2006).
+
+Cada nível é um estágio evolutivo bem definido, compreendendo um conjunto de
+objetivos que, quando satisfeitos, estabilizam um componente importante do
+processo. O modelo tem como premissa a dependência dos critérios de avaliação,
+ou seja, segundo o CMM é necessário que todos os itens de verificação estejam
+em um nível de maturidade para que se possa afirmar que o processo encontra-se
+naquele nível. A avaliação da maturidade dar-se-á pelo conjunto de itens de
+verificação e não cada um isoladamente (HUMPHREY, 1987). A análise da
+maturidade, neste caso, é a visão do conjunto de itens, não analisando as
+partes individualmente.
+
+Alcançando cada nível da estrutura de maturidade, estabelecem-se diferentes
+componentes no processo de desenvolvimento, resultando em um crescimento na
+capacidade de processo da organização.
+
+Segundo Humphrey (1987), o CMM identifica os níveis por meio do qual uma
+organização deve desenvolver-se para estabelecer uma cultura de excelência em
+desenvolvimento. Os níveis definidos no modelo são:
+
+\begin{description}
+\item[Nível 1 - Inicial:] o processo de software é caracterizado como ad hoc e
+ocasionalmente pode ser considerado caótico. Poucos processos são definidos e
+o sucesso depende de esforço individual dos recursos;
+
+\item[Nível 2 - Repetível:] os processos básicos de gestão de projeto são
+estabelecidos para acompanhar custo, cronograma e funcionalidade. A disciplina
+na execução do processo existe para repetir sucess os anteriores em projetos
+com aplicações similares;
+
+\item[Nível 3 - Definido:] o processo de desenvolvimento para as atividades de
+gestão e engenharia é documentado, padronizado e integrado em um processo de
+software padrão para a organização. Todos os projetos utilizam uma versão
+aprovada do processo de desenvolvimento e manutenção de software;
+
+\item[Nível 4 - Gerenciado:] medidas detalhadas do processo de desenvolvimento
+e da qualidade do produto são realizadas. O processo e os produtos são
+quantitativamente compreendidos e controlados;
+
+\item[Nível 5 - Em Otimização:] a melhoria contínua do processo é propiciada
+pelo \emph{feedback} quantitativo do processo e pelas idéias e tecnologias
+inovadoras.
+\end{description}
+
+Contanto que um padrão seja utilizado, podem-se comparar os resultados obtidos
+de uma organização com outra ou consigo mesmo, avaliando o nível em que
+encontra-se.
 
