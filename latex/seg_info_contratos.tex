@@ -23,6 +23,8 @@ gestão de contratos}
   \clearpage
 
   %%% Índice
+
+  \renewcommand\thepage{}
   \setcounter{tocdepth}{1}
   \tableofcontents
   \clearpage
@@ -33,10 +35,12 @@ gestão de contratos}
 
   %%% Lista de Tabelas
   \listoftables
+  \clearpage
 
   %%% Capítulos
   \include{resumo}
   \include{resumo_en}
+  \renewcommand\thepage{\arabic{page}}
   \setcounter{page}{1}
   \include{introducao}
   \include{ref_bib}
