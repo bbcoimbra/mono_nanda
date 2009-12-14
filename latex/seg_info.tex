@@ -11,30 +11,20 @@ conversas, entre outras. Independentemente da forma apresentada ou do meio
 pelo qual é compartilhada ou armazenada, é recomendado que a informação seja
 sempre protegida adequadamente.
 
-A Segurança da informação é caracterizada pela NBR ISO/IEC 17799:2001 pela
-preservação da:
+Segundo a norma NBR ISO/IEC 17799:2001,
+a Segurança da Informação é caracterizada pela preservação da:
 
 \begin{itemize}
 \item \emph{Confidencialidade}: garantia de que a informação é acessível
   somente por pessoas autorizadas a terem acesso;
 
-\item \emph{Integridade}: salvaguarda da exatidão e completeza da informação
+\item \emph{Integridade}: salvaguarda da exatidão e completude da informação
   e dos métodos de processamento;
 
 \item \emph{Disponibilidade}: garantia de que os usuários autorizados
   obtenham acesso à informação e aos ativos correspondentes sempre que
   necessário.
 \end{itemize}
-
-De acordo com a Academia Latino Americana de Segurança da informação
-\cite{website:ms-tech}, atualmente, as informações constituem o objeto de
-maior valor para as organizações. O progresso da informática e das redes de
-comunicação nos apresenta um novo cenário, no qual os objetos do mundo real
-estão representados por bits e bytes, os quais possuem formas diferentes das
-originais, sem deixar de ter o mesmo valor que os objetos reais e, em muitos
-casos, chegando a ter um valor maior. Por este e outros motivos, a Segurança
-da informação é um assunto importante para todos, pois afeta diretamente os
-negócios de uma organização ou de um indivíduo.
 
 Uma das preocupações da Segurança da informação é proteger os elementos que
 fazem parte da comunicação, portanto é necessário identificar estes elementos.
@@ -43,233 +33,92 @@ consciência de como devem lidar com as informações de forma segura, já que de
 nada serve qualquer sistema de segurança, por mais complexo e completo que
 seja, se os funcionários, por exemplo, facilitarem o acesso ou fornecerem seus
 dados de acesso às pessoas estranhas à organização e, com isso, deixarem aberta
-a porta para possíveis ataques ou vazamento de informações críticas.
+a porta para possíveis ataques ou vazamento de informações críticas
+\cite{fontes06}.
 
-De forma geral, os elementos que a Segurança da informação busca proteger são
-os ativos. Ativos são elementos que sustentam a operação do negócio e estes
-sempre trarão consigo vulnerabilidades, as quais por sua vez submetem os ativos
-às ameaças. Os ativos têm valor para as empresas e precisam ser protegidos
-adequadamente para que os negócios não sejam prejudicados. São três os
-elementos que compõem os ativos: as informações, os equipamentos que as
-suportam e as pessoas que as utilizam. Informações são elementos registrados em
-meio eletrônico ou físico, por exemplo: documentos, relatórios, livros,
-manuais, correspondências, patentes, informações de mercado, código de
-programação, linhas de comando, arquivos de configuração, planilhas de
-remuneração de funcionários, plano de negócios de uma empresa, etc. Como
-possíveis vulnerabilidades, podem-se citar: roubo de documentos, perda de
-arquivos de configuração, entre outros. Um exemplo de ativo deste grupo é o
-backup, o qual apresenta como vulnerabilidades fitas antigas, e como ameaças
-indisponibilidade, perda de informação e retrabalho. Após um longo período de
-uso, as mídias utilizadas no backup começam a se degradar, diminuindo assim a
-capacidade de armazenar informações, sendo necessário um processo de revisão
-destas mídias em períodos predeterminados.
+%%% Inclusão do outro texto
+Proteger um bem ou ativo significa que este possui um valor para seu
+proprietário \cite{mandarini04}. Segurança é um termo que transmite
+conforto e tranquilidade a quem desfruta do estado de estar seguro. Buscar uma
+segurança absoluta é dever e um objetivo maior de todas as
+organizações \cite{semola03}. Portanto, inclpica em controlar todas as
+variáveis que integram esse universo, o que torna isto praticamente
+impossível. \citeonline{carneiro02} e \citeonline{champlain03} abordam
+especificamente a questão da \SI, fazendo uma distinção conceitual inicial
+etre a segurança física e a seg. lógica, definindo as partes que as
+compõem. Segundo os autores, a seg. física representa os procedimentos de
+proteção dos meios físicos de armazenamento e de transmissão da
+informação.
 
-Os equipamentos que oferecem suporte à informação podem ser subdivididos nos
-seguintes grupos de ativos: software, hardware e organização.
-
-O grupo software contém todos os programas de computador utilizados para a
-automatização de processos, isto é, acesso, leitura, trânsito e armazenamento
-das informações. Dentre eles, podem-se citar os aplicativos comerciais,
-programas institucionais, sistemas operacionais (Unix, Windows, Linux etc.),
-programas de correio eletrônico, sistemas de suporte etc. A Segurança da
-informação busca avaliar como as aplicações são criadas, como são
-disponibilizadas e como são utilizadas pelos usuários e demais sistemas, para
-detectar e corrigir problemas existentes na comunicação entre eles. Os
-aplicativos deverão estar seguros para que a comunicação entre os bancos de
-dados, outros aplicativos e os usuários ocorra de forma segura, atendendo aos
-princípios básicos da Segurança da informação. Podem-se citar como
-vulnerabilidades desse grupo as falhas publicadas não-reparadas, as quais
-podem permitir acessos indevidos aos computadores. Pode-se considerar o bug
-como uma das vulnerabilidades do software, e suas ameaças são
-indisponibilidade, perda de informação e retrabalho.
-
-O grupo hardware representa toda a infra­estrutura tecnológica que oferece
-suporte a informação durante seu uso, trânsito e armazenamento. Como exemplo
-desses ativos, podem-se citar os servidores, os computadores portáteis, os
-mainframes, os meios de armazenamento, os equipamentos de conectividade,
-roteadores, Switches e qualquer outro elemento de uma rede de computadores por
-meio do qual sejam transmitidas informações. Possíveis vulnerabilidades desse
-grupo são talhas elétricas, as quais podem danificar equipamentos, inundações
-em centros de computação, roubo de computadores portáteis, má configuração
-etc.
-
-Por fim, o grupo organização contem os aspectos que compõem a estrutura física
-e organizacional das empresas e refere-se à organização logica e física do seu
-pessoal. Como exemplos de estrutura organizacional, podem-se citar a estrutura
-departamental e funcional, o quadro de alocação dos funcionários, a
-distribuição de funções e os fluxos de informação da empresa, entre outros. Em
-relação ao ambiente físico, entre outros, são considerados salas e armários
-onde estão localizados os documentos, fitoteca e sala de servidores de
-arquivos. As seguintes vulnerabilidades são atribuídas a este grupo:
-localização insegura de documentos, equipamentos ou pessoas, desatualização
-tecnológica e estrutura organizacional que não permita mudanças em termos de
-segurança. Podem-se considerar ameaças a este grupo: ocorrência de fraudes,
-perda de informação e retrabalho.
-
-O grupo usuários refere-se aos indivíduos que lidam com a informação e que
-utilizam as estruturas tecnológicas e de comunicação da organização. O enfoque
-da segurança neste grupo está voltado para a consciência da formação do hábito
-da segurança em todos os funcionários de uma organização para que estes tomem
-decisões e empreendam ações, desde a alta direção até os usuários finais da
-informação, incluindo os grupos que mantêm em funcionamento a estrutura
-tecnológica, como técnicos, operadores e administradores de ambientes
-tecnológicos. Como exemplo deste tipo de ativo, podem-se citar os funcionários
-da área de Contabilidade e diretores da organização. Entre as possíveis
-vulnerabilidades deste grupo podem-se citar o esquecimento de senhas e, por
-parte dos usuários, a falta de cooperação em termos de segurança e descuido na
-manipulação da informação.
-
-Entende-se que proteger os ativos significa mantê-los seguros contra as
-ameaças que possam afetar sua funcionalidade. Por isso, entende-se que a
-Segurança da informação busca proteger os ativos de uma empresa ou indivíduo
-com base na preservação dos três princípios básicos anteriormente citados:
-integridade, confidencialidade e disponibilidade da informação.
-
-O princípio da integridade tem como objetivo garantir que a informação não
-tenha sido alterada em seu conteúdo e, portanto, seja íntegra. Informação
-íntegra é aquela que não foi alterada de forma indevida ou não-autorizada.
-Para que a informação possa ser utilizada, ela deve ser íntegra. Quando ocorre
-uma alteração não-autorizada da informação em um documento, esse documento
-perde sua integridade. O receptor deverá ter a segurança de que a informação
-recebida, lida ou ouvida é exatamente a mesma que foi colocada à sua
-disposição para uma determinada finalidade. Estar íntegra quer dizer estar em
-seu estado original, sem ter sofrido qualquer alteração por alguém que não
-tenha autorização para isso. Ao sofrer alterações em sua versão original, a
-informação perde sua integridade, ocasionando erros e fraudes e prejudicando a
-comunicação e o processo de decisões. Uma informação poderá ser alterada de
-várias formas, tanto em seu conteúdo quanto no ambiente que lhe oferece
-suporte. Portanto, a quebra da integridade de uma informação pode ser
-considerada sob dois aspectos:
-
+Entende-se por seg. lógica como a forma de estabelecer os controles de acesso
+à informação, objetivando a integridade e a manutenção da
+confidencialidade da informação protegida através da definição das
+permissões de acesso àqueles previamente autorizados e negando o acesso
+daqueles que não gozem dos mesmos direitos. Buscando uma melhor clareza
+conceitual, \citeonline{mandarini04} apresenta uma subdividão em três
+categorias distintas para a seg. física:
 \begin{enumerate}
-\item Alterações no conteúdo dos documentos: quando são realizadas inserções,
-  substituições ou exclusões de parte de seu conteúdo;
-\item Alterações nos elementos que oferecem suporte à informação - quando são
-  realizadas alterações na estrutura física e lógica em que a informação está
-  armazenada.
+\item Pessoas;
+\item Equipamentos;
+\item Instala{ç}ões.
 \end{enumerate}
 
-Buscar a integridade é assegurar que apenas as pessoas autorizadas possam
-fazer alterações na forma e no conteúdo de uma informação, assim como no
-ambiente em que ela é armazenada e pelo qual transita, ou seja, em todos os
-ativos. Logo, para garantir a integridade, é preciso que todos os elementos
-que compõem a base da gestão da informação sejam mantidos em suas condições
-originais, definidas por seus responsáveis e proprietários.
+Na categoria Pessoas encontram-se as possivilidades em que a componente humana
+seja a principal fonte de atenção e de risco em situações como o erro,
+falhas humanas, fraude ou roubo. Também se destacam particularmente as
+questões indiretas comom os processos de seleção e recrutamento dos
+recursoso humanos, a documentação que serve de apoio operacional (manuais,
+normativas internas), a sua atuação nas atividades diárias, a formação de
+recursos humanos, a sua sensibilizaccão, motivação, a formalização e
+entendimento das políticas de segurança. Além destes aspectos, destaca-se o
+papel das pessoas quanto aos utilizadores (internos ou externos) dos meios que
+utilizam e geram informação, da importância de que se reveste em apoiá-los e
+acompanhá-los no seu trabalho, de forma a promover também a segurança, mesmo
+quando estão se referindo aos utilizadores, que podem estar distantes da
+origem ou do ponto de controle \cite{moreira01}. Não podem ser esquecidos os
+trabalhadores temporários (contratados para desempenhar funções específicas)
+ou contratados em regime de \emph{outsourcing}. Esse tipo de profissional pode
+ter, por exemplo, acesso à informação privilegiada e fazer uso da mesma
+forma inadequada, constituindo um potencial risco \cite{nimer98}.
 
-O princípio da confidencialidade tem como objetivo garantir que apenas pessoas
-autorizadas tenham acesso à informação distribuída. As informações trocadas
-entre indivíduos e empresas nem sempre deverão ser conhecidas por todos.
-Muitas informações geradas pelas pessoas se destinam a um grupo específico de
-indivíduos e, muitas vezes, a uma única pessoa. Isso significa que esses dados
-deverão ser conhecidos apenas por um grupo controlado de pessoas, de acordo
-com definição do responsável pela informação. Por isso, a informação possui um
-grau de confidencialidade que deverá ser mantido para que as pessoas não
-autorizadas não a acessem. Ter confidencialidade na comunicação é ter a
-segurança de que o que foi dito a alguém ou escrito em algum lugar só será
-escutado ou lido por quem tiver autorização para tal. Perda de
-confidencialidade significa perda de segredo. Se uma informação for
-confidencial, ela será secreta e deverá ser guardada com segurança, e não
-divulgada para pessoas não-autorizadas. Garantir a confidencialidade é um dos
-fatores determinantes para a segurança e uma das tarefas mais difíceis de
-implementar, pois envolve todos os elementos que fazem parte da comunicação da
-informação, partindo do emissor, passando pelo caminho percorrido e chegando
-até o receptor. Além disso, quanto mais importante for uma informação, maior
-deve ser o seu grau de confidencialidade. Quanto maior for o grau de
-confidencialidade, maior será o nível de segurança necessário à estrutura
-tecnológica e humana que participa desse processo, ou seja, uso, acesso,
-trânsito e armazenamento das informações. Deve-se considerar a
-confidencialidade com base no valor que a informação tem para a organização ou
-à pessoa e nos impactos causados por sua divulgação indevida.
+Na segunda categoria, Equipamentos, estão os computadores, servidores,
+equipamentos de rede, equipamentos de fornecimento de energia, sistemas de
+controle de acesso físico, equipamentos de detecção e combate a incêncios,
+controles de temperatura e umidade, de ventilação e de picos
+eletromagnéticos, referindo-se alguns dos mais representativos
+\cite{moreira01}. Nesse ponto, não podem ser desconsideradas as questões
+relativas a manutenção dos equipamentos e registros de todas as
+intervenções que venham a ocorrer e até questões aparentemente de puca
+relevância, como limpeza dos equipamentos e das intalações físicas.
 
-Assim, deve ser acessada, lida e alterada somente por aqueles indivíduos que
-possuem permissão para tal. O acesso deve ser considerado com base no grau de
-sigilo das informações, pois nem todas as informações importantes da
-organização são confidenciais. No entanto, para garantir isso, somente a
-confidencialidade das informações não é suficiente. É importante que, além de
-serem confidenciais, elas também estejam íntegras, seguindo o principio básico
-da Segurança da informação.
+Na terceira categoria, denominada instalações, são consideradas as
+perspecticas do local onde estão fisicamente instalados os equipamentos que
+gera e armazena a informação, os locais de armazenamento e recuperação de
+documentos, papéis e de todos os outros tipos de registro de alguma
+informação de valor para a organização. Para a redução do risco e
+reforço da segurança são fundamentais as questões relacionadas com a sua
+localização, o estado de conservação predial, os riscos de inundação, de
+infiltrações e de acessos indevidos, a proximidade a locais muito poluídos,
+zonas de tumultos ou manifestações, entre outros \cite{moreira01,
+carneiro02}
 
-O terceiro princípio da Segurança da informação é a disponibilidade. Sendo
-possível assegurar que a informação correta chegue aos destinatários ou
-usuários adequados, deve-se garantir que ela chegue no momento oportuno, e é
-precisamente disso que trata esse princípio. Refere-se à disponibilidade da
-informação e de toda a estrutura física e tecnológica que permite seu acesso,
-trânsito e armazenamento. O objetivo do principio da disponibilidade é
-garantir que a informação:
+A segurança lógica tem por finalidade proteger as informações transmitidas
+ou armazenadas digitalmente. Essa proteção tem como meta impedir a
+alteração, divulgação ou destruição, intencional ou não, atentando para
+os cuidados que devem ser tomados na criação e utilização das
+informações. Seu uso deve ser concedido apenas às pessoas que necessitem
+dela para o desempenho de suas atividades \cite{moreira01}. O campo de
+abrangência do sigilo da informação lógica envolve tanto a organização em
+si como também a sua rede de relações, cuja transferência de informações
+faz-se necessária.
 
-\begin{enumerate}
-\item Seja utilizada quando necessário;
-\item Esteja ao alcance de seus usuários e destinatários;
-\item Possa ser acessada no momento necessário.
-\end{enumerate}
+Entretanto, a privacidade das informações do indivíduo é um direito do
+cidadão e a ele pertence, de modo que nenhuma organização deve discuidar-se
+de qualquer informação pessoal que lhe seja confiada \cite{moreira01}. Se a
+empresa não contar com pessoal de confiança e capaz, todas as demais
+medidas de segurança serão inúteis \cite{fontes06}.
 
-Este princípio está associado à adequada estruturação de um ambiente
-tecnológico e humano que permita a continuidade dos negócios da organização ou
-das pessoas, sem impactos negativos para a utilização das informações. Além de
-estar disponível, a informação deve estar acessível de forma segura para que
-se possa utilizá-la no momento solicitado e para que seja possível garantir
-sua integridade e confidencialidade. Assim, o ambiente tecnológico e os
-suportes da informação deverão estar funcionando corretamente e de forma
-segura para que a informação neles armazenada, e que por eles transita,
-possa ser utilizada pelos usuários. Para que seja possível garantir a
-disponibilidade da informação, é necessário conhecer seus usuários, com base
-no principio da confidencialidade, para que se possa organizar e definir as
-formas de disponibilização, garantindo, conforme cada caso, seu acesso e uso
-quando necessário. A disponibilidade da informação deve ser considerada com
-base no valor que a informação tem e no impacto resultante de sua falta de
-disponibilidade. Para garantir a disponibilidade, muitas medidas são levadas
-em consideração. Entre elas, destacam-se:
-
-\begin{enumerate}
-\item A configuração segura de um ambiente em que todos os elementos que fazem
-  parte da cadeia de comunicação estejam dispostos de forma adequada para
-  assegurar o êxito da leitura, do trânsito e do armazenamento da informação;
-\item A realização de cópias de segurança - backup. isso permite que as
-  informações estejam duplicadas em outro local para uso caso não seja possível
-  recuperá-las a partir de sua base original;
-\item Definir estratégias para situações de contingência;
-\item Estabelecer rotas alternativas para o trânsito da informação, para garantir
-  seu acesso e a continuidade dos negócios, inclusive quando alguns dos recursos
-  tecnológicos ou humanos não estejam em perfeitas condições de funcionamento.
-\end{enumerate}
-
-Pode-se entender melhor a teoria apresentada detalhando-se os elementos da
-Segurança da informação, iniciando-se pelas ameaças, as quais são agentes
-capazes de explorar as falhas de segurança, denominadas vulnerabilidades ou
-pontos fracos, e, como consequência, provocar perdas ou danos aos ativos de
-uma organização, afetando os seus negócios. De forma geral, as ameaças são
-constantes e podem ocorrer a qualquer momento. Essa relação de
-frequência-tempo se baseia no conceito de risco, o qual representa a
-probabilidade de que uma ameaça se concretize por meio de uma vulnerabilidade.
-As ameaças podem ser divididas em três grandes grupos:
-
-\begin{enumerate}
-\item Naturais: condições da natureza e a intempérie que poderão provocar danos
-  nos ativos, tais como fogo, inundação e terremotos;
-\item Intencionais: ameaças deliberadas, fraudes, vandalismo, sabotagens,
-  espionagem, invasões e furtos de informações, entre outros;
-\item Involuntárias: ameaças resultantes de ações inconscientes de usuários, por
-  vírus eletrônicos, muitas vezes causados pela falta de conhecimento no uso dos
-  ativos, tais como erros e acidentes.
-\end{enumerate}
-
-As ameaças sempre existiram e é de se esperar que, a medida que a tecnologia
-progrida, surjam também novas formas pelas quais as informações possam ficar
-expostas. Portanto, é importante conhecer a estrutura geral de como se
-classificam as vulnerabilidades, por meio das quais essas ameaças podem causar
-impacto nos sistemas, comprometendo os princípios da Segurança da informação.
-
-As vulnerabilidades são os elementos que, ao serem explorados por ameaças,
-afetam a confidencialidade, a disponibilidade e a integridade das informações
-de um individuo ou organização. Um dos primeiros passos para a implementação
-da segurança é rastrear e eliminar os pontos fracos de um ambiente de TI. Ao
-se identificarem os pontos fracos, será possível dimensionar os riscos aos
-quais o ambiente está exposto e definir as medidas de segurança apropriadas
-para sua correção.
-
-O risco e a probabilidade de que as ameaças explorem os pontos fracos,
-causando perdas ou danos aos ativos e impactos no negócio, ou seja, afetando
-os princípios de Segurança da informação.
+%%% Termino da inclusão
 
 Conclui-se que a Segurança da informação é uma prática orientada para a
 eliminação das vulnerabilidades a fim de evitar ou reduzir a possibilidade de
